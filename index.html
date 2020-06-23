@@ -10,60 +10,20 @@
   <link rel="canonical" href="">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <style>
-    body {
-      font-family: 'Noto Sans', sans-serif;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: 'Noto Sans', sans-serif;
-    }
-
-    p {
-      font-family: 'Noto Sans', sans-serif;
-    }
-
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
-    .nav-link {
-      padding: 1.5rem;
-    }
-  </style>
-  <!-- Custom styles for this template -->
   <link href="assets/style/offcanvas.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
   <link href="assets/style/dashboard.css" rel="stylesheet">
-  <link href="assets/style/buttons.css" rel="stylesheet">
   <link href="assets/style/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/style/owl.theme.default.min.css" rel="stylesheet">
+  <link href="assets/style/index.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3 col-lg-2 d-md-block bg-warning text-dark sidebar navbar-collapse offcanvas-collapse">
+      <div class="col-md-3 col-lg-2 d-md-block bg-color-offcanvas text-dark sidebar navbar-collapse offcanvas-collapse">
         <div class="sidebar-sticky">
           <div class="d-none d-xs-none d-sm-none d-md-block">
             <img class="" style="width:100%;" src="assets/img/white-logo.jpeg" />
@@ -71,7 +31,7 @@
           <ul class="nav flex-column">
             <li class="nav-item d-flex justify-content-end pr-4 mt-4 d-none d-sm-block d-md-none"
               data-toggle="offcanvas">
-              <span data-feather="x-circle"></span>
+              <span class="text-white" data-feather="x-circle"></span>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="index.html">
@@ -79,7 +39,8 @@
                 मुख्यपृष्ठ / Home
               </a>
             </li>
-            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <h6 style="color: yellow;"
+              class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1">
               <span>नोंदणी करा / Register </span>
             </h6>
             <li class="nav-item">
@@ -126,129 +87,247 @@
 
         <div class="row">
           <div class="col-12 pb-2">
-            <!--SECTION START-->
             <section class="row">
-              <!--Start slider news-->
               <div class="col-12 col-md-12 pb-0 pb-md-3 pt-2 pr-md-1">
-                <div id="featured" class="carousel slide carousel" data-ride="carousel">
-                  <!--dots navigate-->
+
+                <div id="featured" class="carousel slide lazy-load" data-ride="carousel">
                   <ol class="carousel-indicators top-indicator">
                     <li data-target="#featured" data-slide-to="0" class="active"></li>
                     <li data-target="#featured" data-slide-to="1"></li>
                     <li data-target="#featured" data-slide-to="2"></li>
                     <li data-target="#featured" data-slide-to="3"></li>
+                    <li data-target="#featured" data-slide-to="4"></li>
+                    <li data-target="#featured" data-slide-to="5"></li>
+                    <li data-target="#featured" data-slide-to="6"></li>
+                    <li data-target="#featured" data-slide-to="7"></li>
+                    <li data-target="#featured" data-slide-to="8"></li>
+                    <li data-target="#featured" data-slide-to="9"></li>
+                    <li data-target="#featured" data-slide-to="10"></li>
+                    <li data-target="#featured" data-slide-to="11"></li>
+                    <li data-target="#featured" data-slide-to="12"></li>
+                    <li data-target="#featured" data-slide-to="13"></li>
+                    <li data-target="#featured" data-slide-to="14"></li>
+                    <li data-target="#featured" data-slide-to="15"></li>
+                    <li data-target="#featured" data-slide-to="16"></li>
+                    <li data-target="#featured" data-slide-to="17"></li>
+                    <li data-target="#featured" data-slide-to="18"></li>
+
                   </ol>
 
-                  <!--carousel inner-->
                   <div class="carousel-inner">
-                    <!--Item slider-->
+
                     <div class="carousel-item active">
                       <div class="card border-0 rounded-0 text-light overflow zoom">
                         <div class="position-relative">
-                          <!--thumbnail img-->
                           <div class="ratio_left-cover-1 image-wrapper">
-                            <a #>
-                              <img class="img-fluid w-100" src="assets/img/Akshay Bhaiyaa cover1.jpg"
-                                alt="Bootstrap news template">
-                            </a>
+                            <img class="img-fluid w-100" src="assets/img/cover-img/1SubhashDesai.jpg"
+                              alt="Subhash Desai Saheb">
                           </div>
-                          <!-- <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                            <a #>
-                              <h2 class="h3 post-title text-white my-1">Bootstrap 4 template news portal magazine
-                                perfect for news site</h2>
-                            </a>
-                            <div class="news-meta">
-                              <span class="news-author">by <a class="text-white font-weight-bold"
-                                  href="#">Jennifer</a></span>
-                              <span class="news-date">Oct 22, 2019</span>
-                            </div>
-                          </div> -->
                         </div>
                       </div>
                     </div>
 
-                    <!--Item slider-->
                     <div class="carousel-item">
                       <div class="card border-0 rounded-0 text-light overflow zoom">
                         <div class="position-relative">
-                          <!--thumbnail img-->
                           <div class="ratio_left-cover-1 image-wrapper">
-                            <a #>
-                              <img class="img-fluid w-100" src="assets/img/Akshay Bhaiyaa cover2.jpg"
-                                alt="Bootstrap news theme">
-                            </a>
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/2DivakarRaote.jpg"
+                              alt="Bootstrap news theme">
                           </div>
-                          <!-- <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                            <a #>
-                              <h2 class="h3 post-title text-white my-1">Walmart shares up 10% on online sales lift</h2>
-                            </a>
-                            <div class="news-meta">
-                              <span class="news-author">by <a class="text-white font-weight-bold"
-                                  href="#">Jennifer</a></span>
-                              <span class="news-date">Oct 22, 2019</span>
-                            </div>
-                          </div> -->
                         </div>
                       </div>
                     </div>
 
-                    <!--Item slider-->
                     <div class="carousel-item">
                       <div class="card border-0 rounded-0 text-light overflow zoom">
                         <div class="position-relative">
-                          <!--thumbnail img-->
                           <div class="ratio_left-cover-1 image-wrapper">
-                            <a #>
-                              <img class="img-fluid w-100" src="assets/img/Akshay Bhaiyaa cover3.jpg"
-                                alt="Bootstrap blog template">
-                            </a>
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/5SandipanBhome.jpg"
+                              alt="Bootstrap blog template">
                           </div>
-                          <!-- <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                            <a #>
-                              <h2 class="h3 post-title text-white my-1">Bank chief warns on Brexit staff moves to other
-                                company</h2>
-                            </a>
-                            <div class="news-meta">
-                              <span class="news-author">by <a class="text-white font-weight-bold"
-                                  href="#">Jennifer</a></span>
-                              <span class="news-date">Oct 22, 2019</span>
-                            </div>
-                          </div> -->
                         </div>
                       </div>
                     </div>
 
-                    <!--Item slider-->
                     <div class="carousel-item">
                       <div class="card border-0 rounded-0 text-light overflow zoom">
                         <div class="position-relative">
-                          <!--thumbnail img-->
                           <div class="ratio_left-cover-1 image-wrapper">
-                            <a #>
-                              <img class="img-fluid w-100" src="assets/img/Akshay Bhaiyaa cover4.jpg"
-                                alt="Bootstrap portal template">
-                            </a>
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/6ChandrakantKhare.jpg"
+                              alt="Bootstrap portal template">
                           </div>
-                          <!-- <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                            <a #>
-                              <h2 class="h3 post-title text-white my-1">The world's first floating farm making waves in
-                                Rotterdam</h2>
-                            </a>
-                            <div class="news-meta">
-                              <span class="news-author">by <a class="text-white font-weight-bold"
-                                  href="#">Jennifer</a></span>
-                              <span class="news-date">Oct 22, 2019</span>
-                            </div>
-                          </div> -->
                         </div>
                       </div>
                     </div>
-                    <!--end item slider-->
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/7AmbadasDanve.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/8SanjayShirsath.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/9PradipJaiswal.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/10AkshayBhaiyaa.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/11VarunSardesai.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/12SurajChavan.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/13SainathSurve.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/14AmayGhole.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/15AmolKirtikar.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/16NikhilWalekar.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/17PurveshSarnaik.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/18HarshadKarkar.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/19RajendraJanjal.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/20RushikeshKhaire .jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="card border-0 rounded-0 text-light overflow zoom">
+                        <div class="position-relative">
+                          <div class="ratio_left-cover-1 image-wrapper">
+                            <img class="img-fluid w-100" data-src="assets/img/cover-img/21RushikeshJaiswal.jpg"
+                              alt="Bootstrap portal template">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <!--end carousel inner-->
                 </div>
 
-                <!--navigation-->
                 <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
@@ -258,88 +337,6 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-              <!--End slider news-->
-
-              <!--Start box news-->
-              <!-- <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
-                <div class="row">
-                  <div class="col-6 pb-1 pt-0 pr-1">
-                    <div class="card border-0 rounded-0 text-white overflow zoom">
-                      <div class="position-relative">
-                        <div class="ratio_right-cover-2 image-wrapper">
-                          <a #>
-                            <img class="img-fluid" src="https://bootstrap.news/source/img5.jpg"
-                              alt="simple blog template bootstrap">
-                          </a>
-                        </div>
-                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                          <a class="p-1 badge badge-primary rounded-0" #>Lifestyle</a>
-                          <a #>
-                            <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-6 pb-1 pl-1 pt-0">
-                    <div class="card border-0 rounded-0 text-white overflow zoom">
-                      <div class="position-relative">
-                        <div class="ratio_right-cover-2 image-wrapper">
-                          <a #>
-                            <img class="img-fluid" src="https://bootstrap.news/source/img6.jpg"
-                              alt="bootstrap templates for blog">
-                          </a>
-                        </div>
-                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                          <a class="p-1 badge badge-primary rounded-0" #>Motocross</a>
-                          <a #>
-                            <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-6 pb-1 pr-1 pt-1">
-                    <div class="card border-0 rounded-0 text-white overflow zoom">
-                      <div class="position-relative">
-                        <div class="ratio_right-cover-2 image-wrapper">
-                          <a #>
-                            <img class="img-fluid" src="https://bootstrap.news/source/img7.jpg"
-                              alt="bootstrap blog wordpress theme">
-                          </a>
-                        </div>
-                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                          <a class="p-1 badge badge-primary rounded-0" #>Fitness</a>
-                          <a #>
-                            <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-6 pb-1 pl-1 pt-1">
-                    <div class="card border-0 rounded-0 text-white overflow zoom">
-                      <div class="position-relative">
-                        <div class="ratio_right-cover-2 image-wrapper">
-                          <a #>
-                            <img class="img-fluid" src="https://bootstrap.news/source/img8.jpg"
-                              alt="blog website templates bootstrap">
-                          </a>
-                        </div>
-                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                          <a class="p-1 badge badge-primary rounded-0" #>Adventure</a>
-                          <a #>
-                            <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
             </section>
           </div>
         </div>
@@ -347,19 +344,16 @@
         <div class="d-sm-flex flex-md-row justify-content-sm-center pb-1">
           <div class="owl-carousel owl-theme">
             <div class="item">
-              <!-- <img class="img-fluid" src="assets/img/workers/ahsanization-wpvEMgFV4w0-unsplash2.jpg" /> -->
               <img class="img-fluid" src="assets/img/workers/adam-sherez-I2qtMgu8IJA-unsplash.jpg" />
             </div>
             <div class="item">
               <img class="img-fluid" src="assets/img/workers/neonbrand-60krlMMeWxU-unsplash.jpg" />
-              <!-- <img class="img-fluid" src="assets/img/workers/elcarito-lFJJM6hmne4-unsplash.jpg" /> -->
             </div>
             <div class="item">
               <img class="img-fluid" src="assets/img/workers/pop-zebra-2QE5yMcWrD4-unsplash.jpg" />
             </div>
             <div class="item">
               <img class="img-fluid" src="assets/img/workers/adi-goldstein-E_8Zk_hfpcE-unsplash.jpg" />
-              <!-- <img class="img-fluid" src="assets/img/workers/pratik-gupta-CgCvft_lJJU-unsplash.jpg" /> -->
             </div>
             <div class="item">
               <img class="img-fluid" src="assets/img/workers/shubham-verma-Tlyteh1470o-unsplash.jpg" />
@@ -372,12 +366,9 @@
 
         <div style="text-align: center; justify-content: center;"
           class="d-sm-flex flex-sm-column flex-md-row pt-2 pb-4">
-          <a type="button" href="job.html" class="btn btn-warning btn-md btn-radius mr-1 mb-2">नोकरीसाठी / For Job</a>
-          <a type="button" href="entrepreneurs.html" class="btn btn-warning btn-md btn-radius mr-1 mb-2">उद्योजकांकरिता
-            / For
-            Entrepreneurs</a>
-          <!-- <button type="button" class="btn btn-warning btn-sm btn-radius mr-1 mb-0">तक्रार नोंदणी करा / Register
-            Complaint</button> -->
+          <a type="button" href="job.html" class="btn btn-md btn-radius reg-button mr-1 mb-2">नोकरीसाठी / For Job</a>
+          <a type="button" href="entrepreneurs.html" class="btn reg-button btn-md btn-radius mr-1 mb-2">उद्योजकांकरिता
+            / For Entrepreneurs</a>
         </div>
 
         <div class="offset-md-4 col-md-4 col-sm-12" style="text-align: center;">
@@ -386,7 +377,7 @@
           <p style="color: gray;">युवासेना शहर सचिव, संभाजीनगर</p>
         </div>
 
-        <div style="background-color: #F37125;" class="card text-white text-center p-3 mb-3">
+        <div style="background-color: #F57921!important;" class="card text-white text-center p-3 mb-3">
           <h3>संकल्पना</h3>
           <blockquote class="blockquote mb-0" style="font-size: 16px !important;">
             <p>संयुक्त महाराष्ट्राच्या लढ्यात एकत्र आलेला मराठी आवाज महाराष्ट्र राज्याच्या स्थापने नंतर मात्र काहीसा
@@ -404,11 +395,6 @@
               शिवसेनेची स्थापना झाली.</p>
           </blockquote>
         </div>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#ff5500" fill-opacity="1"
-      d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,240C1120,235,1280,181,1360,154.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-    </path>
-  </svg> -->
         <footer class="footer">
           <div class="d-flex justify-content-center">
             <p style="font-weight:600;">&copy; युवा सेना रोजगार 2020</p>
@@ -420,13 +406,9 @@
             </div>
           </div>
         </footer>
-
       </main>
-
     </div>
   </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -465,7 +447,14 @@
           nav: false
         }
       }
-    })
+    });
+    $(function () {
+      $('.carousel.lazy-load').bind('slide.bs.carousel', function (e) {
+        var image = $(e.relatedTarget).find('img[data-src]');
+        image.attr('src', image.data('src'));
+        image.removeAttr('data-src');
+      });
+    });
   </script>
 </body>
 
