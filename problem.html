@@ -8,8 +8,6 @@
     <meta name="author" content="Akashay Khedkar">
     <title>युवा सेना रोजगार - मुख्यपृष्ठ</title>
     <link rel="canonical" href="">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -18,18 +16,17 @@
             padding: 1.5rem;
         }
     </style>
-    <!-- Custom styles for this template -->
     <link href="assets/style/offcanvas.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="assets/style/dashboard.css" rel="stylesheet">
-    <link href="assets/style/buttons.css" rel="stylesheet">
+    <link href="assets/style/index.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-3 col-lg-2 d-md-block bg-warning text-dark sidebar navbar-collapse offcanvas-collapse">
+            <div
+                class="col-md-3 col-lg-2 d-md-block bg-color-offcanvas text-dark sidebar navbar-collapse offcanvas-collapse">
                 <div class="sidebar-sticky">
                     <div class="d-none d-xs-none d-sm-none d-md-block">
                         <img class="" style="width:100%;" src="assets/img/white-logo.jpeg" />
@@ -37,7 +34,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item d-flex justify-content-end pr-4 mt-4 d-none d-sm-block d-md-none"
                             data-toggle="offcanvas">
-                            <span data-feather="x-circle"></span>
+                            <span class="text-white" data-feather="x-circle"></span>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">
@@ -45,8 +42,8 @@
                                 मुख्यपृष्ठ / Home
                             </a>
                         </li>
-                        <h6
-                            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <h6 style="color: yellow;"
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1">
                             <span>नोंदणी करा / Register </span>
                         </h6>
                         <li class="nav-item">
@@ -55,18 +52,26 @@
                                 नोकरीसाठी / Job
                             </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="entrepreneurs.html">
                                 <span data-feather="users"></span>
                                 उद्योजकांकरिता / Entrepreneurs
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="problem.html">
+                            <a class="nav-link active" href="problem.html">
                                 <span data-feather="edit"></span>
                                 समस्यासाठी / Problem
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="new" href="https://www.massia.org/">
+                                <img style="width: 1.5em;" src="assets/img/logo-trans.png">
+                                massia
+                                <span data-feather="external-link"></span>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -100,8 +105,6 @@
 
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
