@@ -31,15 +31,23 @@
     }
   }
 
-  .nav-link {
-    padding: 1.5rem;
-  }
-
   .reg-button {
     border-radius: 3em;
     padding: 0.7em;
     background: linear-gradient(45deg, #fb2c59 30%, #fc5700 90%);
     color: white;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    width: 90%;
+  }
+
+  .vision{
+    background-color: #F57921!important; 
+    border-radius: 0 !important;
+  }
+
+  .color-gray {
+    color: gray !important;
+  }
+
+  .font-weight-600 {
+    font-weight:600 !important;
   }
