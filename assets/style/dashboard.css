@@ -39,6 +39,7 @@
 .sidebar .nav-link {
   font-weight: 500;
   color:white;
+  padding: 2rem 1rem 0rem;
 }
 
 .sidebar .nav-link .feather {
